@@ -1,0 +1,22 @@
+{
+  "name": "demo-remove-credential-using-bfg",
+  "version": "1.0.0",
+  "description": "## Prerequisite Please read \"Your current files are sacred...\" before using `bfg` to remove your files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trairatp-sk/demo-remove-credential-using-bfg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trairatp-sk/demo-remove-credential-using-bfg/issues"
+  },
+  "homepage": "https://github.com/trairatp-sk/demo-remove-credential-using-bfg#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
