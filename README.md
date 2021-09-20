@@ -43,7 +43,7 @@ https://github.com/rtyley/bfg-repo-cleaner/blob/master/BUILD.md
     ```
 5. To completely remove password from `.env`. Create a file called `leaked_passwords.txt` then add leaked password to it
     ```
-    # Add "super-secret-password" to leaked_password.txt
+    # Add "sup3r-s3cr3t-p@44w0rd" to leaked_password.txt
     bfg --place-text leaked_password.txt
     ```
 6. To completely remove `node_modules`. Run the following command
