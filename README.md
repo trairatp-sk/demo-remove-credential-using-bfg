@@ -23,9 +23,9 @@ bfg --strip-blobs-bigger-than 50M
 ### via package manager
 ```bash
 # Macos
-brew install
+brew install bfg
 # Windows
-choco install
+choco install bfg-repo-cleaner
 ```
 ### official bfg doc
 https://github.com/rtyley/bfg-repo-cleaner/blob/master/BUILD.md
