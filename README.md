@@ -43,6 +43,7 @@ https://github.com/rtyley/bfg-repo-cleaner/blob/master/BUILD.md
     ```
 5. To completely remove password from `.env`. Create a file called `leaked_passwords.txt` then add leaked password to it
     ```
+    # Add "super-secret-password" to leaked_password.txt
     bfg --place-text leaked_password.txt
     ```
 6. To completely remove `node_modules`. Run the following command
@@ -53,4 +54,7 @@ https://github.com/rtyley/bfg-repo-cleaner/blob/master/BUILD.md
 8. Before running the command `git reflog` and `git gc`. Try checking out to commit using `git checkout 780470fcae4bd378b1a6b57c811fd0ad3a6e5da2`
 9. You will see that secret can still be access in with commit id.
 10. Checkout back to `main` branch then run `git reflog` and `git gc` as instructed by `bfg`
+    ```
+    git reflog expire --expire=now --all && git gc --prune=now --aggressive
+    ```
 11. Verify that the commit `780470fcae4bd378b1a6b57c811fd0ad3a6e5da2` cannot be checkout to anymore.
