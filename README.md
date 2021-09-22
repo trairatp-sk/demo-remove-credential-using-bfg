@@ -30,7 +30,7 @@ choco install bfg-repo-cleaner
 ### official bfg doc
 https://github.com/rtyley/bfg-repo-cleaner/blob/master/BUILD.md
 
-### Instructions to follow
+## Instructions to follow
 1. Fork https://github.com/trairatp-sk/demo-remove-credential-using-bfg then clone to your local pc
 2. Using your favorite git tools to examine the repo. You will see that there are 3 problems
    1. Private key at `secrets/id_rsa` (we will remove this file)
